@@ -23,6 +23,7 @@
 
 ### Python
 
+```
 """
 What is a program?
 topics: code, whitespace, comments, errors in Python
@@ -111,3 +112,4 @@ dog == dog_2
 
 comparison operators: ==, <, >, <=, >=
 """
+```
