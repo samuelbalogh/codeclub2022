@@ -35,7 +35,6 @@ Python is one of many programming languages. It's very popular in many areas:
 - gaming
 
 A special program, called the interpreter, reads and executes our Python code.
-Python code is written into files ending with .py.
 
 ```
 """
@@ -47,67 +46,43 @@ Code looks like this:
 
 ```
 cat = 'Jones'
+```
 
-def meow():
-    # indentation is the usage of spaces or tabs to create a function "body"
-    print('Meow!!!')
+In the above line, we've **assigned** a **value** to a **variable name**. A **variable** holds some value, so that we can re-use it later.
 
-meow()
-
+```
 # Lines starting with # are comments
-# These are not evaluated
-# cica2 = "Mircike"
-# asdasda zxcasda. 1q23123asda
+# These are not evaluated, these are meaningless to the computer
+```
 
-def woof():  # Comments can be written inline, next to the code
-    pass
+## Data types
 
+```
+### Numeric types
 
-def multiply_by_two(number):
-    return number * 2
+- integers: `1, 2, 42`  
+- floats: `3.0, 1.232, .01`
 
-result = multiply_by_two(6)
+(There is a data type for complex numbers, but their usage is very rare)
 
-"""
-Lines between three quotation marks (") are comments too
-These can be multi-line
+#### Common operations 
 
-Like this
-"""
+We can use the common mathematical operations on numbers: `+`, `-`, `*`, `**` (exponent), `/`, `//`, `%` (modulo)
 
-# Data types
-# type()
-# int, float, boolean, string... etc
+> Note: when you see the `>>>` sign, it refers to the interactive interpreter of Python: it's the "prompt" of Python. This is what you see when you start up Python on your computer.
 
-# Variable
-## naming style and capitalisation
-## Assignment ("legyen egyenlő")
+```
+>>> 5 * 5
+25
+```
 
-dog = "Wolfie"
+```
+>>> 3 ** 3
+27
+```
 
-variable_name = "value"
-
-dog_2 = 'Mr Dog'
-
-number_of_students = 10  # no accents in variable names
-
-number_of_students = number_of_students + 1 
-number_of_students += 1
-
-max_student_count = 15
-
-
-"""
-## Equality, comparison
-
-dog == dog_2 
-
-1 == 2
-
-1 == 1
-
-2 > 1
-
-comparison operators: ==, <, >, <=, >=
-"""
+```
+>>> 15 / 4
+3.75
+```
 ```
