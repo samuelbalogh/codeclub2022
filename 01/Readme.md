@@ -4,21 +4,13 @@
 
 ### Course basics
 
-- goals
-- methods
-- topics
+- goals, methods, topics
 - guest lecturers
-- suggested reading
-- suggested prep time
+- suggested reading, suggested prep time
 
-
-- not a bootcamp
-- no obligations, no guarantees
+- not a bootcamp, no obligations, no guarantees
 - can promise to teach the basics of Python
-
-- if you have an error message:
-  - read it carefully
-  - google for answers to your problem
+- read a lot of realpython.com
 
 
 ### Python
