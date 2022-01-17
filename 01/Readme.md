@@ -5,6 +5,9 @@
 ### Course basics
 
 - goals, methods, topics
+  - 2 sessions per week (Mon-Wed)
+  - homework (posted on Slack)
+  - discussions on Slack  
 - guest lecturers
 - suggested reading, suggested prep time
 
