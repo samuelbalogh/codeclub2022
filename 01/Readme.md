@@ -8,12 +8,10 @@
   - 2 sessions per week (Mon-Wed)
   - homework (posted on Slack)
   - discussions on Slack  
-- guest lecturers
-- suggested reading, suggested prep time
-
+- there will be guest lecturers
 - not a bootcamp, no obligations, no guarantees
 - can promise to teach the basics of Python
-- read a lot of realpython.com
+- read a lot of [realpython.com](realpython.com)
 
 
 ### Python
