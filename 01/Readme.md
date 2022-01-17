@@ -57,7 +57,7 @@ In the above line, we've **assigned** a **value** to a **variable name**. A **va
 
 ## Data types
 
-```
+
 ### Numeric types
 
 - integers: `1, 2, 42`  
