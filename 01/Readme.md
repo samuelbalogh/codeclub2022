@@ -23,8 +23,6 @@
 
 ### Python
 
-```
-"""
 What is a program?
 topics: code, whitespace, comments, errors in Python
 
@@ -44,10 +42,15 @@ Python is one of many programming languages. It's very popular in many areas:
 A special program, called the interpreter, reads and executes our Python code.
 Python code is written into files ending with .py.
 
+```
+"""
 This text you are reading now is valid Python code (although it is a comment, or more specifically a docstring)
 """
+```
 
-# Code looks like this:
+Code looks like this:
+
+```
 cat = 'Jones'
 
 def meow():
