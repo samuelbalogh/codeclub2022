@@ -65,24 +65,26 @@ In the above line, we've **assigned** a **value** to a **variable name**. A **va
 
 (There is a data type for complex numbers, but their usage is very rare)
 
-#### Common operations 
+### Strings
 
-We can use the common mathematical operations on numbers: `+`, `-`, `*`, `**` (exponent), `/`, `//`, `%` (modulo)
 
-> Note: when you see the `>>>` sign, it refers to the interactive interpreter of Python: it's the "prompt" of Python. This is what you see when you start up Python on your computer.
+Strings represent **text**. They are between single or double quotes.
 
 ```
->>> 5 * 5
-25
+food = 'spaghetti'
 ```
 
 ```
->>> 3 ** 3
-27
+other_food = "lasagne"
 ```
 
-```
->>> 15 / 4
-3.75
-```
-```
+[Python docs](https://docs.python.org/3/tutorial/introduction.html?fbclid=IwAR3knUj3nO0-f2fYMS5Yb5MbGplB93buRymiE_07F06rufql14v5bKrzErk#strings)
+
+
+### Booleans
+
+Values representing "Boolean logic": True/False. 
+
+`True` and `False` are the only boolean values.
+
+This is a [good article about booleans](https://thomas-cokelaer.info/tutorials/python/boolean.html?fbclid=IwAR0mg4nzR6uQ4JvneWMGzLH6yiYzeb4Lo_C83ddo5vwXAcy_-lRdH61Q-Gw#notes-about-booleans-and-logical-operators).
