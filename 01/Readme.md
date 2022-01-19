@@ -37,11 +37,6 @@ Python is one of many programming languages. It's very popular in many areas:
 
 A special program, called the interpreter, reads and executes our Python code.
 
-```
-"""
-This text you are reading now is valid Python code (although it is a comment, or more specifically a docstring)
-"""
-```
 
 Code looks like this:
 
@@ -54,6 +49,13 @@ In the above line, we've **assigned** a **value** to a **variable name**. A **va
 ```
 # Lines starting with # are comments
 # These are not evaluated, these are meaningless to the computer
+```
+
+
+```
+"""
+This text you are reading now is also valid Python code (although it is a comment, or more specifically a docstring)
+"""
 ```
 
 ## Data types
