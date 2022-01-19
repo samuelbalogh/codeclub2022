@@ -14,13 +14,16 @@
 - read a lot of [realpython.com](realpython.com)
 
 
-### Python
+### Programmin
 
 What is a program?
 topics: code, whitespace, comments, errors in Python
 
 A program is a collection of instructions - we instruct the computer what to do, and it does exactly that. It does **exactly** what we tell it.
 A program is executed line by line, one afer another, starting from the first line of a file. The "syntax" of a program follows a strict set of rules that the computer can understand
+
+### Python
+
 Python is one of many programming languages. It's very popular in many areas: 
 - web development, 
 - scientific computing, 
