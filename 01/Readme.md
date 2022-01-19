@@ -241,7 +241,7 @@ You can **slice** them, just like strings - remember the slicing operator `[star
 [2, 3]
 ```
 
-To get all the items except the last, you can use `[:-1]` which is shorthatd for `[0:-1:1]` (from the zeroth element, until the minus first, in steps of one):
+To get all the items except the last, you can use `[:-1]` which is shorthatd for `[0:-1:1]` (from element zero, until but not including the last one, in steps of one):
 
 ```
 >>> my_list = [1, 2, 3]
