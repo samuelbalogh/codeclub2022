@@ -14,7 +14,7 @@
 - read a lot of [realpython.com](realpython.com)
 
 
-### Programmin
+### Programming
 
 What is a program?
 topics: code, whitespace, comments, errors in Python
