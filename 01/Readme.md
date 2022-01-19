@@ -248,3 +248,43 @@ To get all the items except the last, you can use `[:-1]` which is shorthatd for
 >>> my_list[:-1]
 [1, 2]
 ```
+
+
+The third argument of the slice operator makes it possible to **skip items**, or to move through the list **backwards**:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[0:3:2]
+[1, 3]
+```
+
+You can use `my_list[::-1]` to traverse the list backwards `[::-1]` is a shorthand for "_from the beginning, to the end, in steps of minus one_":
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[::-1]
+[3, 2, 1]
+```
+
+
+You can **index** them:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list[0]
+1
+```
+
+You add an item to a list with the `append()` method:
+
+```
+>>> my_list = [1, 2, 3]
+>>> my_list.append(4)
+>>> my_list
+[1, 2, 3, 4]
+```
+
+You can remove an item with the `remove()` method, and you can do a lot of other things - check out these articles for more:
+
+- [RealPython](https://realpython.com/python-lists-tuples/#python-lists)
+- [More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
