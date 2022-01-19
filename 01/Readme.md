@@ -27,7 +27,7 @@ A program is executed line by line, one afer another, starting from the first li
 Python is one of many programming languages. It's very popular in many areas: 
 - web development, 
 - scientific computing, 
-- bioinformatics (a straind of DNA as a sequence of characters)
+- bioinformatics (a strand of DNA as a sequence of characters)
 - finance (financial analysis, stock trading)
 - machine learning (image recognition)
 - data science
