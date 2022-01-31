@@ -296,7 +296,7 @@ Until now, we have been using Python __interactively__: we have opened the Pytho
 
 However, usually, we prefer writing to a text file, and executing the text file with Python. This can be achieved by the following way (assuming you are using Windows):
 
-- Download Notepad++ from [here](https://notepad-plus-plus.org/downloads/v8.2.1/)
+- Download Notepad++ from [here](https://notepad-plus-plus.org/downloads/v8.2.1/). Any other text editor works too (Notepad, the built-in text editor of Windows is usable as well). Another good option is the [Atom](https://atom.io/) text editor.
 - install it
 - open Notepad++
 - type `print("hello world!!!")`
