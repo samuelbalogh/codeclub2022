@@ -288,3 +288,67 @@ You can remove an item with the `remove()` method, and you can do a lot of other
 
 - [RealPython](https://realpython.com/python-lists-tuples/#python-lists)
 - [More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+
+
+## Running Python files
+
+Until now, we have been using Python __interactively__: we have opened the Python interpreter and have interacted with it.
+
+However, usually, we prefer writing to a text file, and executing the text file with Python. This can be achieved by the following way (assuming you are using Windows):
+
+- Download Notepad++ from [here](https://notepad-plus-plus.org/downloads/v8.2.1/)
+- install it
+- open Notepad++
+- type `print("hello world!!!")`
+
+![notepad1.png](notepad1.png)
+
+- click File > Save as...  (or press Ctrl+S)
+
+- pick a convenient location for the file - I suggest creating a "codeclub" directory in your User directory (which might be called something else, like your name)
+
+![notepad2.png](notepad2.png)
+
+- open the Command Prompt by pressing the Windows button and typing "cmd" and pressing Enter
+
+![cmd](cmd.png)
+
+- you will be presented with a black terminal, in your default user directory. 
+
+
+- navigate to the directory where you have saved the file. This can be achieved by typing `cd` followed by the name of the directory you have used. I have saved the file in a directory called "codeclub" in my home directory (called "User"), so I had to type `cd codeclub`.
+
+- If everything went well, the text "hello world!!!" will be printed on your terminal 🎉, yaay! 
+
+![cmd2](cmd2.png)
+
+## Control flow
+
+### `if` statements
+
+https://docs.python.org/3/tutorial/controlflow.html#if-statements
+
+```
+>>> x = int(input("Please enter an integer: "))
+Please enter an integer: 42
+>>> if x < 0:
+...     x = 0
+...     print('Negative changed to zero')
+... elif x == 0:
+...     print('Zero')
+... elif x == 1:
+...     print('Single')
+... else:
+...     print('More')
+...
+```
+
+
+### `for` statements 
+
+
+### `while` statements
+
+
+
+
