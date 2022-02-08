@@ -229,6 +229,9 @@ You can put any data type into a list.
 
 [Python docs](https://docs.python.org/3/tutorial/introduction.html?fbclid=IwAR3knUj3nO0-f2fYMS5Yb5MbGplB93buRymiE_07F06rufql14v5bKrzErk#lists)
 
+
+
+
 #### Common operations of lists
 
 Lists are very versatile, you can do a lot of things with them.
@@ -288,6 +291,93 @@ You can remove an item with the `remove()` method, and you can do a lot of other
 
 - [RealPython](https://realpython.com/python-lists-tuples/#python-lists)
 - [More on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+
+### Dictionaries
+
+Official [Python docs](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+
+It is best to think of a dictionary as a set of key: value pairs, with the requirement that the keys are unique (within one dictionary)
+
+A pair of braces creates an empty dictionary: `{}`.
+Placing a comma-separated list of key:value pairs within the braces adds initial key:value pairs to the dictionary;
+This is also the way dictionaries are written on output
+The main operations on a dictionary are storing a value with some key and extracting the value given the key.
+
+This is an empty dictionary:
+
+```
+stock_prices = {}
+```
+
+We can add some values to the dictionary like so:
+
+```
+stock_prices['IBM'] = 126
+stock_prices['TSLA'] = 660
+```
+
+We can declare a dictionary like this as well:
+
+```
+stock_prices = {'IBM': 126, 'TSLA': 660}
+```
+
+Or we can do a dictionary for cocktail recipes:
+
+```
+cocktails = {}
+cocktails['rob roy'] = ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
+cocktails['old fashioned'] = ['whisky', 'angostura bitters', 'sugar', 'water', 'lemon peel', 'ice']
+```
+
+Dictionaries are iterable objects - we can iterate over them. To iterate over keys:
+
+```
+for cocktail in cocktails:
+    print(cocktail)
+```
+
+Same thing expressed differently:
+
+```
+for cocktail in cocktails.keys():
+    print(cocktail)
+```
+
+To iterate over values:
+
+```
+for cocktail in cocktails.values():
+    print(cocktail)
+```
+
+To iterate over both the keys and values, we can use the items() method on the dictionary:
+
+```
+for cocktail_name, ingredients in cocktails.items():
+    print(cocktail_name, ingredients)
+```
+
+It's slightly more readable if you name the key and value based on what they mean:
+
+
+```
+for cocktail, ingredients in cocktails.items():
+    print(cocktail, " is made with ", ingredients)
+```
+
+We can use the "in" operator on dictionaries. The following will evaluate to `True`:
+
+```
+'rob roy' in cocktails
+```
+
+Dictionaries are also called "look up tables" because we can look up things in them. The following will return the ingredients for the Rob Roy cocktail:
+
+
+```
+cocktails['rob roy']
+```
 
 
 ## Running Python files
