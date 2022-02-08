@@ -330,7 +330,7 @@ cocktails['rob roy'] = ['whisky', 'angostura bitters', 'sweet vermouth', 'ice']
 cocktails['old fashioned'] = ['whisky', 'angostura bitters', 'sugar', 'water', 'lemon peel', 'ice']
 ```
 
-Dictionaries are iterable objects - we can iterate over them. To iterate over keys:
+Dictionaries are iterable objects - we can iterate over them (check out [this section](https://github.com/samuelbalogh/codeclub2022/blob/master/01/Readme.md#for-statements) to read about iterables). To iterate over keys:
 
 ```
 for cocktail in cocktails:
