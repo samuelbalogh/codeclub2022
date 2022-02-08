@@ -444,8 +444,8 @@ for number in [1, 2, 3]:
     print(number)
 ```
 
-This is called "iteration": we iterate over a list of items. Generally speaking, we iterate over an "iterable".
-Iterable is "an object capable of returning its members one at a time"
+This is called "iteration": we iterate over a list of items. Generally speaking, we iterate over an "_iterable_".
+Iterable is an object capable of returning its members _one at a time_.
 
 For example, a list is an iterable. 
 
