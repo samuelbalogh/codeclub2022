@@ -346,9 +346,71 @@ Please enter an integer: 42
 
 ### `for` statements 
 
+If you have a block of code that you want to repeat a number of times, you can use a "loop". The most frequently used loop in Python is the `for` loop:
+
+
+```
+for number in [1, 2, 3]:
+    print(number)
+```
+
+This is called "iteration": we iterate over a list of items. Generally speaking, we iterate over an "iterable".
+Iterable is "an object capable of returning its members one at a time"
+
+For example, a list is an iterable. 
+
+```
+iterable = ['steak', 'broccoli', 'sausage', 'pizza', 'beer', 'spaghetti']
+
+for i in iterable:
+    print(i)
+```
+
+Strings are iterables too!
+
+```
+for character in 'this is cool':
+    print(character)
+```
+
+If you want to have a loop with a given number of iterations, you can use the `range()` function:
+
+```
+for number in range(10):
+    print(number)
+```
+
+The `break` statement stops the loop. The following code will print out numbers up until `76`:
+
+```
+for number in range(100):
+    print(number)
+    if number == 77:
+        break    
+```
+
+The `continue` statment makes the loop continue with the next iteration (and it will jump over the code that follows it):
+
+
+```
+for number in range(100):
+    if number % 2:
+        continue
+    else:
+        print(number)
+```
+
+
 
 ### `while` statements
 
+The `while` loop is another looping technique in Python. The loop keeps going as long as the right side of the statement is true:
 
+```
+counter = 0
+while counter < 100:
+    print(counter)
+    counter = counter + 1
+```
 
 
