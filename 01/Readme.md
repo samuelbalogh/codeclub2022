@@ -503,4 +503,18 @@ while counter < 100:
     counter = counter + 1
 ```
 
+## Functions
+
+# FUNCTIONS
+
+A function is a self-contained block of code that encapsulates a specific task or related group of tasks.  
+We write functions so the we can **reuse** our code - this way, we don't have to copy-paste code.   
+Functions also make our code more **readable**  - the name of the function describes what it does, and we don't have to know how it's implemented (eg.: consider the built-in `print()` function in Python: we don't have to know how it works, we only care about what it does).
+
+
+The things you need to know about is the function’s interface:
+ - What arguments (if any) it takes
+ - What values (if any) it returns
+
+
 
